@@ -150,6 +150,7 @@
       .container-img2 {
         margin-left: 100px;
         margin-top: 25px;
+        width: 100%;
       }
 
       .text-link {
@@ -170,11 +171,8 @@
         font-size: 20px;
       }
 
-      @media screen and (max-width: 480px) {
-        html {
-          font-size: 5px;
-        }
-
+      
+      @media screen and (max-width: 870px) {
         .nav-menu {
           display: none;
         }
@@ -189,13 +187,31 @@
         .container-principal {
           width: 100vw;
           min-height: 40px;
-          background-color: red;
-          display: none;
+          flex-direction:column;
         }
 
-        .container-img2 {
-          display: none;
+        .container-text{
+          margin: 0;
         }
+
+        .container-button1{
+          width: 300px;
+          margin: 0 auto ;
+        }
+
+        .container-img2{
+          margin: 0 auto;
+          align-items: center;
+          border: 1px solid red;
+        }
+
+        img{
+          height: 100%;
+          width: 100%;
+
+        }
+
+
       }
     </style>
   </head>
