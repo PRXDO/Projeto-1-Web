@@ -23,8 +23,13 @@ body {
 }
 
 .text-title {
-  margin-left: 20px;
-  font-size: 20px;
+  margin-left: 15px;
+  font-size: 15px;
+  flex-direction: row;
+  display: inline-flex;
+  margin-top: 25%;
+  margin-bottom: 25%;
+  padding-right: 75%;
 }
 
 .img-title {
@@ -35,7 +40,6 @@ body {
   width: 50vw;
   align-items: center;
   display: flex;
-  font-size: 14px;
 }
 .nav-menu {
   display: flex;
@@ -56,7 +60,7 @@ li:hover {
 .container-input {
   width: 20vw;
   display: flex;
-  margin-right: 2%;
+  margin-right: 7%;
   height: 80%;
   margin-top: 10px;
 }
@@ -179,42 +183,40 @@ input {
   display: flex;
   /* align-items: center; */
   margin: 4% 2%;
-
-  border: 1px solid red;
 }
 
-@media screen and (max-width: 870px) {
+.menu-section {
+  display: none;
+}
+
+/* Div Mobile */
+@media screen and (max-width: 870px) /* INICIO */ {
   html {
     font-size: 50%;
   }
 
   .container-image {
-    border: 1px solid green;
     margin-left: 50px;
     margin-bottom: 15px;
   }
 
   .text-title {
-    border: 1px solid red;
     /* font-size: 14px; */
     flex-direction: row;
     display: inline-flexbox;
   }
 
-  .container-message {
-    border: 1px solid red;
+  /* .container-message {
   }
 
   .container-principal {
-    border: 1px solid white;
-  }
+  } */
 
   .nav-menu {
     display: none;
   }
 
   .container-menu {
-    border: 1px solid red;
     display: none;
   }
   .container-input {
@@ -239,11 +241,17 @@ input {
   .container-img2 {
     margin: 0 auto;
     align-items: center;
-    border: 1px solid red;
   }
 
   img {
     height: 100%;
     width: 100%;
   }
+
+  .menu-section {
+    display: block;
+    color: white;
+  }
+
+  /* FIM */
 }
