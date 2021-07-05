@@ -29,7 +29,6 @@ body {
   display: inline-flex;
   margin-top: 25%;
   margin-bottom: 25%;
-  padding-right: 75%;
 }
 
 .img-title {
@@ -40,6 +39,8 @@ body {
   width: 50vw;
   align-items: center;
   display: flex;
+  margin-right: 26%;
+  /* border: 1px solid red; */
 }
 .nav-menu {
   display: flex;
@@ -60,7 +61,7 @@ li:hover {
 .container-input {
   width: 20vw;
   display: flex;
-  margin-right: 7%;
+  margin-right: 5%;
   height: 80%;
   margin-top: 10px;
 }
@@ -195,15 +196,22 @@ input {
     font-size: 50%;
   }
 
+  .container {
+    display: inline-block;
+  }
+
   .container-image {
-    margin-left: 50px;
-    margin-bottom: 15px;
+    margin-left: 20px;
+    /* margin-bottom: 15;px; */
   }
 
   .text-title {
-    /* font-size: 14px; */
+    border: 1px solid red;
+    font-size: 10px;
     flex-direction: row;
     display: inline-flexbox;
+    align-items: center;
+    margin-right: 15px;
   }
 
   /* .container-message {
@@ -227,10 +235,19 @@ input {
     width: 100vw;
     min-height: 40px;
     flex-direction: column;
+    height: 100vh;
   }
 
   .container-text {
     margin: 0;
+  }
+
+  .container-retangular {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-left: 45px;
+    margin-right: 45px;
   }
 
   .container-button1 {
@@ -241,6 +258,8 @@ input {
   .container-img2 {
     margin: 0 auto;
     align-items: center;
+    justify-content: center;
+    text-align: center;
   }
 
   img {
@@ -249,7 +268,7 @@ input {
   }
 
   .menu-section {
-    display: block;
+    display: none;
     color: white;
   }
 
