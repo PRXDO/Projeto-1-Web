@@ -2,13 +2,13 @@ body {
   margin: 0;
   padding: 0;
   border: 0;
+  width: 100%;
   font-family: "Segoe UI", "Helvetica Neue", "Helvetica", Arial, sans-serif;
   color: white;
 }
 
 .container {
   margin: 0;
-  width: 100vw;
   height: 50px;
   background-color: #2c2c32;
   flex-direction: row;
@@ -16,31 +16,22 @@ body {
 }
 
 .container-image {
-  width: 25vw;
-  margin-left: 5vw;
   align-items: center;
   display: flex;
+  padding-left: 1%;
 }
 
 .text-title {
-  margin-left: 15px;
   font-size: 20px;
   flex-direction: row;
   display: inline-flex;
-  margin-top: 25%;
-  margin-bottom: 25%;
   font-family: "Segoe UI","Helvetica Neue","Helvetica",Arial,sans-serif;
-}
-
-.img-title {
-  margin-left: 20px;
 }
 
 .container-menu {
   width: 50vw;
   align-items: center;
   display: flex;
-  margin-right: 26%;
   /* border: 1px solid red; */
 }
 .nav-menu {
@@ -48,7 +39,7 @@ body {
 }
 
 li {
-  margin-right: 20px;
+  padding-left: 10px;
   list-style: none;
   color: #9d9da0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -62,24 +53,18 @@ li:hover {
 .container-input {
   background-color: #3c4240;
   display: flex;
-  display: flex;
   flex-direction: row;
-  width: 10%;
+  height: 50px;
+  width: 183px;
   border: 0;
   align-items: center;
-
-
-  
 }
 
 input {
   background-color: #3d3d42;
-  margin-top: 8px;
-  margin-bottom: 8px;
   border: 0;
 }
 .container-message {
-  width: 100vw;
   height: 50px;
   background-color: #25252b;
 
@@ -93,7 +78,6 @@ input {
 }
 
 .container-principal {
-  width: 100vw;
   min-height: 600px;
   background-color: #2c2c32;
   display: flex;
@@ -109,12 +93,6 @@ input {
 }
 
 .container-button1 {
-  /* border: 1px solid royalblue;
-        flex-direction: column;
-        display: flex;
-        align-items: center;
-        background-color: #0098ff;
-        color: white; */
 
   background-color: #0098ff;
   border: none;
@@ -135,34 +113,46 @@ input {
   font-family: "Segoe UI","Helvetica Neue","Helvetica",Arial,sans-serif;
 }
 
+.nav-bar-left{
+  margin-left: 100px;
+  display: flex;
+  flex-direction: row;
+  
+}
+
+
 .container-button2 {
   background-color: #0098ff;
   color: white;
+  height: 50px;
   width: 134.02px;
   display: flex;
   flex-direction: row;
   border: 0;
   align-items: center;
 
+}
 
-  /* background-color: #0098ff;
-        border: none;
-        flex-direction: column;
-        color: white;
-        padding: 15px 20px;
-        text-align: center;
-        text-decoration: none;
-        display: flex;
-        align-items: center;
-        font-size: 15px;
-        margin: 2px 1px;
-        cursor: pointer; */
+.teste-btn-download{
+  margin-left: 6px;
+}
+
+.container-searchdocs {
+  margin-left: 15px;
+  font-size: 14px;
+  font-family: inherit;
+}
+
+.icon-lupa {
+  margin-top: 4px;
+  margin-left: 10px; 
 }
 
 .text-btndownload{
   font-size: 16px;
   text-align: center;
   font-family: "Segoe UI","Helvetica Neue","Helvetica",Arial,sans-serif;
+  margin-left: 8px;
 }
 
 .container-img2 {
