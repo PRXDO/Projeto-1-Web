@@ -9,7 +9,7 @@ body {
 .container {
   margin: 0;
   width: 100vw;
-  height: 70px;
+  height: 50px;
   background-color: #2c2c32;
   flex-direction: row;
   display: flex;
@@ -24,11 +24,12 @@ body {
 
 .text-title {
   margin-left: 15px;
-  font-size: 15px;
+  font-size: 20px;
   flex-direction: row;
   display: inline-flex;
   margin-top: 25%;
   margin-bottom: 25%;
+  font-family: "Segoe UI","Helvetica Neue","Helvetica",Arial,sans-serif;
 }
 
 .img-title {
@@ -59,16 +60,23 @@ li:hover {
 }
 
 .container-input {
-  width: 20vw;
+  background-color: #3c4240;
   display: flex;
-  margin-right: 5%;
-  height: 80%;
-  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  width: 10%;
+  border: 0;
+  align-items: center;
+
+
+  
 }
+
 input {
   background-color: #3d3d42;
   margin-top: 8px;
   margin-bottom: 8px;
+  border: 0;
 }
 .container-message {
   width: 100vw;
@@ -122,14 +130,20 @@ input {
   cursor: pointer;
 }
 
+.text-menu{
+  font-size: 16px;
+  font-family: "Segoe UI","Helvetica Neue","Helvetica",Arial,sans-serif;
+}
+
 .container-button2 {
-  flex-direction: column;
-  display: flex;
-  align-items: center;
   background-color: #0098ff;
   color: white;
-  margin-left: 1px;
-  margin: 2px 1px;
+  width: 134.02px;
+  display: flex;
+  flex-direction: row;
+  border: 0;
+  align-items: center;
+
 
   /* background-color: #0098ff;
         border: none;
@@ -145,6 +159,12 @@ input {
         cursor: pointer; */
 }
 
+.text-btndownload{
+  font-size: 16px;
+  text-align: center;
+  font-family: "Segoe UI","Helvetica Neue","Helvetica",Arial,sans-serif;
+}
+
 .container-img2 {
   margin-left: 100px;
   margin-top: 25px;
@@ -153,7 +173,8 @@ input {
 
 .text-link {
   color: #0098ff;
-  font-size: 12px;
+  font-size: 15.2px;
+  font-family: "Segoe UI","Helvetica Neue","Helvetica",Arial,sans-serif;
 }
 
 .text-style1 {
