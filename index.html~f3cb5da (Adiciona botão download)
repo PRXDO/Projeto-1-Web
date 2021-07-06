@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+
+  <body>
+    <header>
+      
+      
+      
+    </header>
+    <!-- Div 1 -->
+    <div class="container">
+      <div class="container-image">
+        <img
+          class="img-title"
+          style="height: 30px; width: 30px"
+          src="logoVSCode.png"
+          alt="VS Code Logo"
+        />
+        <a class="text-title">Visual Studio Code</a>
+      </div>
+
+      <!-- <div class="container-menu">
+
+        <div>
+          <div class="menu-section">
+          <div class="menu-toggle">
+            <div class="one"></div>
+            <div class="two"></div>
+            <div class="three"></div>
+          </div>
+          <nav>
+            <ul>
+              <li>
+                <a href="#">Starter</a>
+              </li>
+              <li>
+                <a href="#">Bootcamp</a>
+              </li>
+              <li>
+                <a href="#">Comunidade</a>
+              </li>
+              <li>
+                <a href="#">Blog</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div> -->
+        
+        <ul class="nav-menu">
+          <li><a class="text-menu">Docs</a></li>
+          <li><a class="text-menu">Updates</a></li>
+          <li><a class="text-menu">Blog</a></li>
+          <li><a class="text-menu">API</a></li>
+          <li><a class="text-menu">Extensions</a></li>
+          <li><a class="text-menu">FAQ</a></li>
+          <li><a class="text-menu">Learn</a></li>
+        </ul>
+
+        <div class="container-input">
+              <div>
+                <img
+                style="height: 20px; width: 20px; color: white;"
+                 src="search.png"
+                 alt="Search"
+                />
+              </div>
+              <div>
+                <p>Search Docs</p>
+              </div>
+
+
+        </div>
+        
+          <button class="container-button2">
+            <div>
+              <!-- <img
+                style="height: 15px; width: 15px; color: white;"
+               src="arrowDown.png"
+               alt="Arrow Down"
+              /> -->
+              <img class="download-icon" src="download.svg" width="16px" height="16px" alt="Download VS Code">
+            </div>
+            <div>
+              <p class="text-btndownload"><b>Download</b></p>
+            </div>
+          </button>
+
+    </div>
+
+    <!-- Div 2 -->
+    <div class="container-message">
+      <p class="container-paragraph">
+        <span class="text-link">Version 1.57</span> is now available! Read about
+        the new features and fixes from May.
+      </p>
+    </div>
+    <!-- Div 3 -->
+    <div class="container-principal">
+      <div class="container-text">
+        <h1>Code Editing.</h1>
+        <strong class="text-style1">Redefined.</strong>
+        <p class="text-style2">Free. Built on open source. Runs everywhere.</p>
+        <div class="container-download-button-div3">
+          <button class="container-button1">
+            Download for Windows<small>Stable Build</small>
+          </button>
+          <button class="container-download-button">
+            \/
+          </button>
+        </div>
+        <p class="container-retangular">
+          <span class="text-link-div3">Other platforms</span> 
+            and
+          <span class="text-link-div3">Insiders Edition</span>
+        </p>
+        <small>By using VS Code, you agree to its</small>
+        <span class="text-link">license and privacy statement.</span>
+      </div>
+      <div class="container-img2">
+        <img style="height: 90%; width: 90%" src="home.png" alt="home imagem" />
+      </div>
+    </div>
+  </body>
+</html>
