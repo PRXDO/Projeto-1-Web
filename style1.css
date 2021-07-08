@@ -16,6 +16,7 @@ html {
 /* Cabeçalho */
 
 .cabecalho-total {
+<<<<<<< HEAD
   width: 99, 99%;
   background-color: 25252b;
   display: flex;
@@ -24,25 +25,45 @@ html {
 .cabecalho-esquerda {
   height: 6%;
   width: 63%;
+=======
+  width: 100%;
+  background-color: 25252b;
+}
+
+.cabecalho-esquerda {
+  height: 8%;
+  width: 65%;
+>>>>>>> dd6ac88 (Reformulação código)
   margin-left: 7%;
 }
 
 .logo {
   float: left;
+<<<<<<< HEAD
   width: 28%;
   margin-top: 1.2%;
   white-space: nowrap;
+=======
+>>>>>>> dd6ac88 (Reformulação código)
 }
 
 .img-logo {
   padding-left: 3%;
 }
 .text-logo {
+<<<<<<< HEAD
   margin-left: 2%;
   color: white;
   font-size: 20px;
   font-family: "Segoe UI", "Helvetica Neue", "Helvetica", Arial, sans-serif;
   white-space: nowrap;
+=======
+  vertical-align: 17%;
+  margin-left: 2%;
+  color: white;
+  font-size: 15px;
+  font-family: "Segoe UI", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+>>>>>>> dd6ac88 (Reformulação código)
 }
 
 .nav-menu {
@@ -56,7 +77,11 @@ html {
 }
 
 li {
+<<<<<<< HEAD
   padding-left: 2.5%;
+=======
+  padding-left: 1%;
+>>>>>>> dd6ac88 (Reformulação código)
   list-style: none;
   color: #9d9da0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -70,6 +95,7 @@ li:hover {
 }
 
 .cabecalho-direita {
+<<<<<<< HEAD
   width: 25%;
   height: 6%;
   display: flex;
@@ -117,6 +143,8 @@ li:hover {
   width: 134.02px;
   display: flex;
   align-items: center;
+=======
+>>>>>>> dd6ac88 (Reformulação código)
 }
 
 /* Fim Cabeçalho */
@@ -142,6 +170,7 @@ li:hover {
 }
 
 .container-version-bar-text-color {
+<<<<<<< HEAD
   color: rgb(12, 152, 242);
   display: inline;
 }
@@ -150,6 +179,12 @@ li:hover {
   color: #ccc;
 }
 
+=======
+  color: #0098ff;
+  display: inline;
+}
+
+>>>>>>> dd6ac88 (Reformulação código)
 /* Final Version Bar */
 
 /* Principal */
@@ -204,7 +239,11 @@ li:hover {
   width: 80%;
   margin-left: auto;
   margin-right: auto;
+<<<<<<< HEAD
 
+=======
+  /* margin-top: -13%; */
+>>>>>>> dd6ac88 (Reformulação código)
 
   color: #ffffff99;
 }
