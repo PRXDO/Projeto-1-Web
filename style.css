@@ -15,8 +15,11 @@ html {
 
 /* Cabeçalho */
 
+.menu {
+  display: none;
+}
+
 .cabecalho-total {
-<<<<<<< HEAD
   width: 99, 99%;
   background-color: 25252b;
   display: flex;
@@ -25,45 +28,25 @@ html {
 .cabecalho-esquerda {
   height: 6%;
   width: 63%;
-=======
-  width: 100%;
-  background-color: 25252b;
-}
-
-.cabecalho-esquerda {
-  height: 8%;
-  width: 65%;
->>>>>>> dd6ac88 (Reformulação código)
   margin-left: 7%;
 }
 
 .logo {
   float: left;
-<<<<<<< HEAD
   width: 28%;
   margin-top: 1.2%;
   white-space: nowrap;
-=======
->>>>>>> dd6ac88 (Reformulação código)
 }
 
 .img-logo {
   padding-left: 3%;
 }
 .text-logo {
-<<<<<<< HEAD
   margin-left: 2%;
   color: white;
   font-size: 20px;
   font-family: "Segoe UI", "Helvetica Neue", "Helvetica", Arial, sans-serif;
   white-space: nowrap;
-=======
-  vertical-align: 17%;
-  margin-left: 2%;
-  color: white;
-  font-size: 15px;
-  font-family: "Segoe UI", "Helvetica Neue", "Helvetica", Arial, sans-serif;
->>>>>>> dd6ac88 (Reformulação código)
 }
 
 .nav-menu {
@@ -77,11 +60,7 @@ html {
 }
 
 li {
-<<<<<<< HEAD
   padding-left: 2.5%;
-=======
-  padding-left: 1%;
->>>>>>> dd6ac88 (Reformulação código)
   list-style: none;
   color: #9d9da0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -95,7 +74,6 @@ li:hover {
 }
 
 .cabecalho-direita {
-<<<<<<< HEAD
   width: 25%;
   height: 6%;
   display: flex;
@@ -143,8 +121,6 @@ li:hover {
   width: 134.02px;
   display: flex;
   align-items: center;
-=======
->>>>>>> dd6ac88 (Reformulação código)
 }
 
 /* Fim Cabeçalho */
@@ -170,7 +146,6 @@ li:hover {
 }
 
 .container-version-bar-text-color {
-<<<<<<< HEAD
   color: rgb(12, 152, 242);
   display: inline;
 }
@@ -179,12 +154,6 @@ li:hover {
   color: #ccc;
 }
 
-=======
-  color: #0098ff;
-  display: inline;
-}
-
->>>>>>> dd6ac88 (Reformulação código)
 /* Final Version Bar */
 
 /* Principal */
@@ -235,15 +204,12 @@ li:hover {
 }
 
 .container-text-label3 {
+  font-family: "Segoe UI", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+
   text-align: center;
   width: 80%;
   margin-left: auto;
   margin-right: auto;
-<<<<<<< HEAD
-
-=======
-  /* margin-top: -13%; */
->>>>>>> dd6ac88 (Reformulação código)
 
   color: #ffffff99;
 }
@@ -279,7 +245,7 @@ li:hover {
 }
 
 .container-text-button1-subtext {
-  margin-top: 1.5%;
+  margin-top: 4%;
   font-size: 13px;
   font-weight: 100;
   color: #ccc;
@@ -347,10 +313,130 @@ li:hover {
 .container-img {
   background-color: #2c2c32;
 
-  width: 50%;
-  height: 90%;
+  width: 55%;
+  height: 105%;
 
-  margin-top: 3%;
+  margin-top: 1.8%;
   margin-right: 3%;
 }
 /* Fim Principal */
+
+/* Div Mobile */
+@media screen and (max-width: 980px) {
+  /*COMEÇO CABEÇALHO  */
+
+  .nav-menu {
+    display: none !important;
+  }
+
+  .container-pesquisa {
+    display: none !important;
+  }
+
+  .container-download {
+    display: none !important;
+  }
+
+  .menu {
+    display: flex;
+  }
+
+  .menu-toggle {
+    width: 40px;
+    height: 30px;
+  }
+
+  .one,
+  .two,
+  .three {
+    background-color: #fff;
+    height: 3px;
+    width: 100%;
+    margin: 6px auto;
+
+    transition-duration: 0.3s;
+  }
+
+  .cabecalho-total {
+    justify-content: space-between;
+  }
+
+  .cabecalho-direita {
+    width: 10%;
+    height: 6%;
+  }
+
+  .container-version-bar-text-color {
+    padding-left: 2%;
+  }
+
+  .color-version-text-gray {
+    padding-right: 2%;
+  }
+
+  /* FIM CABEÇALHO */
+
+  /* COMEÇO VERSION BAR */
+
+  .container-version-bar {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: block;
+  }
+
+  .container-version-bar-text {
+    margin-left: 10%;
+    margin-right: 10%;
+
+    display: block;
+    font-size: 12px;
+  }
+
+  /* FIM VERSION BAR */
+
+  /* COMEÇO PRINCIPAL */
+
+  .container-principal {
+    width: 100%;
+    align-items: center;
+
+    flex-direction: column;
+  }
+
+  .container-text {
+    width: 100%;
+    height: 100%;
+  }
+
+  .container-text-label1 {
+    width: 100%;
+  }
+
+  .container-text-label2 {
+    margin-top: 40%;
+  }
+
+  .container-text-button1 {
+    height: 100%;
+  }
+
+  .container-text-button1-subtext {
+    margin-top: -0.5%;
+  }
+
+  .container-text-button2 {
+    height: 100%;
+  }
+
+  .container-text-label4 {
+    margin-top: 3%;
+  }
+
+  .container-img {
+    margin-top: -6%;
+    width: 95%;
+    height: 70%;
+  }
+  /* FIM PRINCIPAL */
+}
